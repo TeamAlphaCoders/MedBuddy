@@ -1,7 +1,6 @@
 import React from 'react'
 import DiseaseCard from './DiseaseCard'
-import bgImg from "../data/bgImg.jpg";
-import CreateRecord from '../createRecords/CreateRecords';
+import bgImg from "../data/bgImg.jpg"; 
 
 
 const PredictDisease = () => {
@@ -63,8 +62,8 @@ const PredictDisease = () => {
             image="https://media.istockphoto.com/id/1316780057/vector/line-graph-of-rise.jpg?s=612x612&w=0&k=20&c=L42PpOSam5QvZ2PBpWHPmWXE05bxtk2-Umk96UOHs_w="
           />
         </div>
-
-        <CreateRecord/>
+ 
+        
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const Home = () => {
     <>
       
       <div
-        className=" w-[100vw] h-full flex overflow-y-hidden "
+        className=" w-full h-[100vh] flex overflow-y-hidden "
         style={{
           backgroundImage: `url(${bgImg})`,
           backgroundSize: "cover",
