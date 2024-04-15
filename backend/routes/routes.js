@@ -4,9 +4,10 @@ import { signupUser, loginUser, checkUsername, logoutUser } from "../controller/
 
 import { authenticateToken, createNewToken } from "../controller/jwt-controller.js";
 
-// import { RegisteredHospitalName, ShowdHospitalName, HospitalAddedMedRecords } from "../controller/HospitalMedRecController.js";
+import { RegisteredHospitalName, ShowdHospitalName} from "../controller/Hospital-Controller.js";
 
-// import { UserAddedMedRecords } from "../controller/UserMedRecController.js"
+import { MedRecords, getAllRecords } from "../controller/Records-Controller.js";
+
 
 
 const router = express.Router();
@@ -18,10 +19,11 @@ router.post('/logout', logoutUser);
 
 router.post('/token', createNewToken);
 
-// router.post('/admin/registerhosps', RegisteredHospitalName);
-// router.get('/admin/showhosps', ShowdHospitalName);
+router.post('/admin/registerhosps', RegisteredHospitalName);
+router.get('/admin/showhosps', ShowdHospitalName);
+  
+router.post('/create/med-records', MedRecords);
+router.get('/records', authenticateToken, getAllRecords)
 
-// router.post('/hospital-added-medical-records', HospitalAddedMedRecords);
-// router.post('/user-added-medical-records', UserAddedMedRecords);
 
 export default router;

@@ -43,30 +43,70 @@ const FamilyHistorySchema = new mongoose.Schema({
 })
 
 const MedicalRecordSchema = new mongoose.Schema({
-    addedBy: { type: String },
-    userType: { type: String },
-    patientUsername: { type: String },
-    patientName: { type: String },
-    mobile: { type: String },
-    email: { type: String },
-    hospitalName: { type: String },
- 
-    diseases: [{
-        diseaseName: String
-    }],
 
-    organsCondition: {
-        heart: Boolean,
-        lungs: Boolean,
-        kidney: Boolean,
-        liver: Boolean
+    userType: {
+        type: String,
+        required: true,
     },
-    medicines: [{}],
-    remediesRecommended: String,
-    familyHistory: [{}],
-});
 
- 
+    patientName: {
+        type: String,
+        required: true,
+    },
+
+    patientUsername: {
+        type: String,
+        required: true
+    },
+
+    number: {
+        type: Number,
+        required: true,
+    },
+
+    email: {
+        type: String,
+        required: true,
+    },
+
+    hospitalName: {
+        type: String,
+        required: false,
+    },
+
+    drName: {
+        type: String,
+        required: false,
+    },
+
+    diseases: { type: String },
+
+    diseaseDescription: {
+        type: String
+    },
+
+    reports: {
+        type: String,
+        required: false,
+    },
+
+    organsCondition: { type: String },
+    
+    
+    // {
+    //     Brain: { type: Number },
+    //     heart: { type: Number },
+    //     lungs: { type: Number },
+    //     kidney: { type: Number },
+    //     liver: { type: Number }
+    // },
+
+    medicines: { type: String },
+
+    remediesRecommended: { type: String },
+  
+    createdDate: { type: Date }
+});
 
 
 
@@ -75,7 +115,7 @@ const Tokens = mongoose.model("Tokens", TokenSchema);
 const UserModel = mongoose.model("UserModel", userSchema);
 
 const MedicalRecord = mongoose.model('MedicalRecord ', MedicalRecordSchema);
- 
+
 
 const HospitalsNames = mongoose.model('HospitalsNames', HospitalsNamesSchema);
 
