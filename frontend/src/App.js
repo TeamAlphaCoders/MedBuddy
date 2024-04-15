@@ -31,39 +31,53 @@ const App = () => {
   const [isAuthenticated, isUserAuthenticated] = useState(false)
 
   return (
-    <div className="App">
-
+    <div className="App ">
       <Routes>
-        <Route path="/login" element={<Login isUserAuthenticated={isUserAuthenticated} />} />
+        <Route
+          path="/login"
+          element={<Login isUserAuthenticated={isUserAuthenticated} />}
+        />
 
         {/* Setting up a private route */}
 
         {/* Navbar Routes */}
-        <Route path="/" element={<PrivateRoute isAuthenticated={isAuthenticated} />}>
+        <Route
+          path="/"
+          element={<PrivateRoute isAuthenticated={isAuthenticated} />}
+        >
           <Route path="/" element={<Home />} />
         </Route>
- 
 
-        <Route path="/records" element={<PrivateRoute isAuthenticated={isAuthenticated} />}>
+        <Route
+          path="/records"
+          element={<PrivateRoute isAuthenticated={isAuthenticated} />}
+        >
           <Route path="/records" element={<MedRecords />} />
         </Route>
 
-        <Route path="/create" element={<PrivateRoute isAuthenticated={isAuthenticated} />}>
+        <Route
+          path="/create"
+          element={<PrivateRoute isAuthenticated={isAuthenticated} />}
+        >
           <Route path="/create" element={<CreateRecords />} />
         </Route>
- 
 
-        <Route path="/ai-predictor" element={<PrivateRoute isAuthenticated={isAuthenticated} />}>
+        <Route
+          path="/ai-predictor"
+          element={<PrivateRoute isAuthenticated={isAuthenticated} />}
+        >
           <Route path="/ai-predictor" element={<PredictDisease />} />
         </Route>
 
-        <Route path="/analysis" element={<PrivateRoute isAuthenticated={isAuthenticated} />}>
+        <Route
+          path="/analysis"
+          element={<PrivateRoute isAuthenticated={isAuthenticated} />}
+        >
           <Route path="/analysis" element={<ReportAnalysis />} />
         </Route>
-  
+
         {/* ---------------------------------- */}
         <Route path="*" element={<NoMatch />} />
-
       </Routes>
     </div>
   );

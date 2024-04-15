@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Recursive:wght@700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Recursive:wght@700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Recursive:wght@700&family=Roboto+Slab:wght@100..900&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Recursive:wght@700&family=Roboto+Slab:wght@100..900&family=Work+Sans&display=swap');
+
 @tailwind components;
 @tailwind utilities;
 
@@ -10,21 +15,23 @@
   text-decoration: none;
 }
 
-*::-webkit-scrollbar {
+/* Scrool lines were removed. */
+
+/* *::-webkit-scrollbar {
   width: 12px;
   border-radius: 14px;
-}
+} */
 
 /* Track */
-*::-webkit-scrollbar-track {
+/* *::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
   border-radius: 14px;
-}
+} */
 
 /* Handle */
-*::-webkit-scrollbar-thumb {
+/* *::-webkit-scrollbar-thumb {
   background: rgb(202, 202, 202);
   height: 1rem;
   border-radius: 15px;
 }
- 
+  */
