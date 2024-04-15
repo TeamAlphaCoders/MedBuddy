@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 w-100 mx-auto px-4 text-[white] bg-[#000300] ">
+    <div className="flex justify-between items-center  w-100 mx-auto px-4 text-[white] bg-[#000300] ">
       <h1 className="w-fit text-3xl font-bold text-[#00df9a] m-4">
         <Link className=" hover:text-[crimson] text-[#00df9a]" to="/">
         MedBuddy
@@ -26,17 +26,17 @@ const Navbar = () => {
           <li className="p-4  text-[white] hover:text-[crimson]">Records</li>
         </Link>
 
-        <Link to="/create">
+        {/* <Link to="/create">
           <li className="p-4  text-[white] hover:text-[crimson]">Add Records</li>
-        </Link>
+        </Link> */}
 
         <Link to="/ai-predictor">
           <li className="p-4 text-[white]  hover:text-[crimson]">Check Diseases</li>
         </Link>
 
-        <Link to="/analysis">
+        {/* <Link to="/analysis">
           <li className="p-4 text-[white]  hover:text-[crimson]">Analyse Reports</li>
-        </Link>
+        </Link> */}
 
         <Link to="/login">
           <li className="p-4 text-[white]  hover:text-[crimson]">Logout</li>
