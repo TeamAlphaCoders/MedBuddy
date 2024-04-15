@@ -37,4 +37,23 @@ export const SERVICE_URLS = {
   userLogin: { url: '/login', method: 'POST' },
   
   getRefreshToken: { url: '/token', method: 'POST' },
+
+  //pdf_api
+  // uploadPdfFile: { url: 'csr/pdfupload', method: 'POST' },
+
+  // getPdfDetailById: { url: '/pdfdetails', method: 'GET', query: true },
+
+  // ==**=*=*=*=*=*=**=**=*=*=*=*=*=*=*
+
+  createRecords: { url: '/create/med-records', method: 'POST' },
+
+  // ==**=*=*=*=*=*=**=**=*=*=*=*=*=*=*
+
+  // Fetch Projects
+  getAllRecords: { url: '/records', method: 'GET', query: true },
+
+  // ==**=*=*=*=*=*=**=**=*=*=*=*=*=*=*
+
+  // fetchprojects via there id
+  // getPostById: { url: '/post', method: 'GET', query: true },
 };
