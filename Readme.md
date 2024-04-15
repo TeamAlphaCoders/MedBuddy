@@ -33,11 +33,6 @@ MedBuddy is an AI-powered Electronic Health Record (EHR) system designed to revo
 # 2.0 Prequisite
 
 - MoongoDB (atlas) account
-- PayPal business account
-- PayPal SendBox account
-- PayPal SandBox App client_id
-- PayPal SandBox App client_secret Code
-- Gemini Api Key
 
 - Note : You can view the guide of how to create any of the particular thing is in the installation section.
 
