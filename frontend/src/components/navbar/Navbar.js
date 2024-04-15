@@ -26,9 +26,9 @@ const Navbar = () => {
           <li className="p-4  text-[white] hover:text-[crimson]">Records</li>
         </Link>
 
-        {/* <Link to="/create">
+        <Link to="/create">
           <li className="p-4  text-[white] hover:text-[crimson]">Add Records</li>
-        </Link> */}
+        </Link>
 
         <Link to="/ai-predictor">
           <li className="p-4 text-[white]  hover:text-[crimson]">Check Diseases</li>
@@ -74,9 +74,9 @@ const Navbar = () => {
           <li className="p-4 text-[white]  hover:text-[crimson]">Check Diseases</li>
         </Link>
 
-        <Link to="/analysis">
+        {/* <Link to="/analysis">
           <li className="p-4 text-[white]  hover:text-[crimson]">Analyse Reports</li>
-        </Link>
+        </Link> */}
 
         <Link to="/login">
           <li className="p-4 text-[white]  hover:text-[crimson]">Logout</li>

@@ -1,16 +1,33 @@
 # MedBuddy
 
-This Project is made for HackMait 5.0 Challenge by Alpha Coders -
+This Project is made for HackMait 5.0 by Alpha Coders -
 
 # Team | Alpha Coders
 
 - [Abhyuday Pratap Singh](https://www.linkedin.com/in/abhyuday12/) ||  [Divyam Khatri](https://www.linkedin.com/in/divyam-khatri-66970528a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  || [Akhilesh](https://www.linkedin.com/in/akhilesh-malik-44989b258/)
 || [Kumar Harsh](https://www.linkedin.com/in/kumar-harsh-468a22253)
 
- 
+
+### Resources 
+- [PPT](https://docs.google.com/presentation/d/15xje6z8hsuoIN5vA0MZOzj8inPDkUiqt/edit?usp=drive_link)
+
+### ScreenShots
+
+![1:Login/Signup](image.png)
+
+![2: HomePage](image-1.png)
+
+![3: Add Records Page](image-2.png)
+
+![4: Visulaise Diseases](image-3.png)
+
+![5: Database](image-4.png)
+
+
 # 1. Introduction
 
 MedBuddy represents a groundbreaking advancement in healthcare technology, offering an innovative solution to streamline and optimize electronic health records (EHRs). As an AI-powered platform, MedBuddy goes beyond traditional record-keeping by harnessing the power of artificial intelligence to predict diseases and facilitate proactive healthcare management. By seamlessly integrating patient data and leveraging advanced algorithms, MedBuddy empowers healthcare providers to make informed decisions and deliver personalized care. With MedBuddy, healthcare professionals can access comprehensive patient information, receive predictive insights, and enhance diagnostic accuracy, ultimately revolutionizing the way healthcare is delivered. Say hello to the future of healthcare with MedBuddy – your trusted companion in patient care and disease prediction.
+
 
 ## 1.1 Problem Statement
 
@@ -33,11 +50,6 @@ MedBuddy is an AI-powered Electronic Health Record (EHR) system designed to revo
 # 2.0 Prequisite
 
 - MoongoDB (atlas) account
-- PayPal business account
-- PayPal SendBox account
-- PayPal SandBox App client_id
-- PayPal SandBox App client_secret Code
-- Gemini Api Key
 
 - Note : You can view the guide of how to create any of the particular thing is in the installation section.
 
@@ -87,7 +99,7 @@ https://github.com/TeamAlphaCoders/MedBuddy
 
 _Client:_ React , TailwindCSS ,Material UI .
 
-_Server:_ MongoDB , Express.js , Node.js .
+_Server:_ MongoDB , Express.js , Node.js , Flask, Python.
 
 # 6.0 Support
 
