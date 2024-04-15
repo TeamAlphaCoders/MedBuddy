@@ -4,7 +4,7 @@ This Project is made for HackMait 5.0 Challenge by Alpha Coders -
 
 # Team | Alpha Coders
 
-- [Abhyuday Pratap Singh](https://www.linkedin.com/in/abhyuday12/) ||  [Divyam Khatri](https://www.linkedin.com/in/aditya-jaiswal-14b453241/)  || [Akhilesh](https://www.linkedin.com/in/akhilesh-malik-44989b258/)
+- [Abhyuday Pratap Singh](https://www.linkedin.com/in/abhyuday12/) ||  [Divyam Khatri](https://www.linkedin.com/in/divyam-khatri-66970528a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  || [Akhilesh](https://www.linkedin.com/in/akhilesh-malik-44989b258/)
 || [Kumar Harsh](https://www.linkedin.com/in/kumar-harsh-468a22253)
 
  
